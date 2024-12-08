@@ -75,12 +75,36 @@
 
 ## Задание №2
 1) Проверим, что Git Flow установлен
+   
    ![Снимок экрана 2024-12-08 144220](https://github.com/user-attachments/assets/739fcbdd-cd86-4b62-9a12-5f945f68e24b)
 
 2) Инициализируем Git Flow и оставим название папок по-умолчанию
+   
    ![Снимок экрана 2024-12-08 144715](https://github.com/user-attachments/assets/8adf1ad1-4b37-4314-97a4-49c9a277e4f2)
 
-    
+3)  Создадим ветку для нового функционала
+   ```
+   git flow feature start task-management
+   ```
+4) Создадим новый файл Python-файл и откроем его
+   ```
+   nano task_manager.py
+   ```
+   Напишем в файле такой скрипт:
+   
+   ![image](https://github.com/user-attachments/assets/2d60ca5e-10b0-4bb6-99d1-68c232a27508)
+   
 
+6) Закоммитим это файл с помощью команд
+   ```
+   git add task_manager.py
+   git commit --no-verify -m "Добавлен функционал управления задачами"
+   ```
+   
+   ![image](https://github.com/user-attachments/assets/71fa39ac-8f7c-4124-9dcf-cc6dd0117e3f)
+
+   --no-verify необходимо для того, чтобы отключить проверку файлов из предыдущего задания
+7) Внесем изменения в файл - добавим вывод описания задачи
+   
 
 
