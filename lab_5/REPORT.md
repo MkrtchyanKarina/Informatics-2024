@@ -91,8 +91,8 @@
    nano task_manager.py
    ```
    Напишем в файле такой скрипт:
-   
-   ![image](https://github.com/user-attachments/assets/2d60ca5e-10b0-4bb6-99d1-68c232a27508)
+
+   ![image](https://github.com/user-attachments/assets/4b3bf2e4-e00d-4b29-90b4-1a99a4102f7a)
    
 
 6) Закоммитим это файл с помощью команд
@@ -104,7 +104,33 @@
    ![image](https://github.com/user-attachments/assets/71fa39ac-8f7c-4124-9dcf-cc6dd0117e3f)
 
    --no-verify необходимо для того, чтобы отключить проверку файлов из предыдущего задания
-7) Внесем изменения в файл - добавим вывод описания задачи
    
+8) Внесем изменения в файл - добавим вывод описания задачи
+
+   ![image](https://github.com/user-attachments/assets/2d60ca5e-10b0-4bb6-99d1-68c232a27508)
+
+9) Закоммитим файл с изменениями:
+    
+    ![image](https://github.com/user-attachments/assets/8c715ce1-e845-4d15-a5c4-99bbd27fb47a)
+
+10) Так как мы закончили разработку, то удаляем ветку и переключаемся в ветку develop с помощью команды:
+    ```
+    git flow feature finish task-management
+    ```
+    ![image](https://github.com/user-attachments/assets/3eaff158-741f-4d22-bf0e-b75810d7e702)
+
+11) Создадим релиз при помощи команд:
+    ```
+    git flow release start v1.0.0
+    echo "v1.0.0" > version.txt
+    git add version.txt
+    git commit -m "Обновлена версия для релиза v1.0.0"
+    git flow release finish v1.0.0
+    ```
+
+
+   ![image](https://github.com/user-attachments/assets/002ebd6c-1715-4705-b544-cf3051c9f7d3)
+
+   ![image](https://github.com/user-attachments/assets/2fddb6ca-908d-4f27-a3e6-f43cdbeb353b)
 
 
