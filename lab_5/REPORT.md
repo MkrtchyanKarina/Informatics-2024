@@ -73,6 +73,13 @@
     ```
     ![Снимок экрана 2024-12-08 144435](https://github.com/user-attachments/assets/bfbfab5c-cd90-4cf8-a3c1-6d9e1c2b3a31)
 
+## Задание №2
+1) Проверим, что Git Flow установлен
+   ![Снимок экрана 2024-12-08 144220](https://github.com/user-attachments/assets/739fcbdd-cd86-4b62-9a12-5f945f68e24b)
+
+2) Инициализируем Git Flow и оставим название папок по-умолчанию
+   ![Снимок экрана 2024-12-08 144715](https://github.com/user-attachments/assets/8adf1ad1-4b37-4314-97a4-49c9a277e4f2)
+
     
 
 
