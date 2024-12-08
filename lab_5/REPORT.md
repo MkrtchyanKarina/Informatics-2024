@@ -134,3 +134,18 @@
    ![image](https://github.com/user-attachments/assets/2fddb6ca-908d-4f27-a3e6-f43cdbeb353b)
 
 
+12) Создадим ветку для срочного исправления ошибки:
+    ![image](https://github.com/user-attachments/assets/5b1d9f41-c5bd-45dd-9348-9d8e2d67a6ea)
+
+13) "Исправим" файл task_manager.py
+    ![image](https://github.com/user-attachments/assets/74c8ceed-9dc8-405a-a8e4-afa90bd74685)
+
+14) Внесем изменения в локальный репозиторий:
+    ![image](https://github.com/user-attachments/assets/d57c852a-6aad-4b9d-9c4e-2f5ef45117fa)
+
+15) Выгрузим изменения в ветку develop
+    ![image](https://github.com/user-attachments/assets/767bd5c2-2001-4a69-90d5-965d0bc76fd7)
+
+16) Выгрузим изменения в ветку master
+    ![image](https://github.com/user-attachments/assets/9c0ad867-49bd-41b6-96b5-4fe9b06d3219)
+
