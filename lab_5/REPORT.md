@@ -153,7 +153,7 @@
     ```
     git add file_with_error.py
     git commit -m "Исправлена критическая ошибка"
-   ```
+    ```
     
     ![image](https://github.com/user-attachments/assets/d57c852a-6aad-4b9d-9c4e-2f5ef45117fa)
     
