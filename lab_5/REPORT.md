@@ -148,11 +148,12 @@
     ![image](https://github.com/user-attachments/assets/74c8ceed-9dc8-405a-a8e4-afa90bd74685)
     
 
-16) Внесем изменения в локальный репозиторий:
+16) Внесем изменения в локальный репозиторий в ветку master:
     
     ```
     git add file_with_error.py
     git commit -m "Исправлена критическая ошибка"
+    git flow hotfix finish hotfix-1.0.1
     ```
     
     ![image](https://github.com/user-attachments/assets/d57c852a-6aad-4b9d-9c4e-2f5ef45117fa)
