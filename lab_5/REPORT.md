@@ -78,7 +78,7 @@
    
    ![Снимок экрана 2024-12-08 144220](https://github.com/user-attachments/assets/739fcbdd-cd86-4b62-9a12-5f945f68e24b)
 
-2) Инициализируем Git Flow и оставим название папок по-умолчанию
+2) Инициализируем Git Flow и оставим название веток по-умолчанию
    
    ![Снимок экрана 2024-12-08 144715](https://github.com/user-attachments/assets/8adf1ad1-4b37-4314-97a4-49c9a277e4f2)
 
