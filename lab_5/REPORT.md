@@ -136,6 +136,10 @@
 
 12) Создадим ветку для срочного исправления ошибки:
     
+    ```
+    git flow hotfix start hotfix-1.0.1
+    ```
+    
     ![image](https://github.com/user-attachments/assets/5b1d9f41-c5bd-45dd-9348-9d8e2d67a6ea)
     
 
@@ -145,6 +149,11 @@
     
 
 16) Внесем изменения в локальный репозиторий:
+    
+    ```
+    git add file_with_error.py
+    git commit -m "Исправлена критическая ошибка"
+   ```
     
     ![image](https://github.com/user-attachments/assets/d57c852a-6aad-4b9d-9c4e-2f5ef45117fa)
     
