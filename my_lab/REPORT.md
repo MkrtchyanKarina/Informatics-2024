@@ -40,5 +40,7 @@
    ![image](https://github.com/user-attachments/assets/1c0205ab-727f-447a-ba17-a9b950c797d6)
 
 
-8) Проверим файл с логами:
+8) Если все выполнилось без ошибок, то файл с логами должен остаться пустым:
    
+   ![image](https://github.com/user-attachments/assets/4d3cb7aa-d797-4a59-97a7-deb2ca073923)
+
