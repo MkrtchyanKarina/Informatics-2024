@@ -21,7 +21,11 @@
    */5 * * * * /home/<user>/backup_new_files.bash
    ```
    ![image](https://github.com/user-attachments/assets/50cbb908-0fd9-471a-bc66-1be9f338722b)
-4) Перейдем в папку watch/ и создадим в ней новый файл:
+4) Создадим файл с логами:
+   ```
+   touch backup.log
+   ```
+5) Перейдем в папку watch/ и создадим в ней новый файл:
    ```
    cd watch && touch new_file.txt
    ```
