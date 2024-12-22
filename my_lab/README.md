@@ -14,9 +14,10 @@
 2) Напишем скрипт, при запуске которого текущее время будет записано в файл time.log:
    ```
    #!/bin/bash
-   echo date >> /home/<user>/time.log
+      date >> /home/<user>/time.log
    ```
-   ![Снимок экрана 2024-12-22 164757](https://github.com/user-attachments/assets/a629345c-95e9-450b-bbc5-e08c9df625c0)
+   ![Снимок экрана 2024-12-22 171537](https://github.com/user-attachments/assets/50aaa30a-4b79-4534-ba69-d5017cf69449)
+
 
 3) Сделаем файл исполняемым:
    ```
@@ -48,8 +49,17 @@
 ```
 * * * * * /home/<user>/time.log
 ```
-Вместо 5-ти * можем оставить одну:
-```
-* /home/<user>/time.log
-```
+6) Проверим работу - выведем содержимое файла с логами - time.log:
+   
+   ![image](https://github.com/user-attachments/assets/d8dbab26-baeb-4387-a6a0-45b2d81ab743)
+
+7) Все работает верно :) Для того, чтобы установить для планировщика задач подходящий вам часовой пояс, нужно набрать команду:
+   ```
+   sudo timedatectl set-timezone Europe/Moscow
+   ```
+   Посмотреть список доступных часовых поясов можно при помощи команды:
+   ```
+   timedatectl list-timezones
+   ``` 
+
 ## Основное задание
