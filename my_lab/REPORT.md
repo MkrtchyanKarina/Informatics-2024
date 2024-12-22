@@ -44,3 +44,11 @@
    
    ![image](https://github.com/user-attachments/assets/4d3cb7aa-d797-4a59-97a7-deb2ca073923)
 
+9) Мы можем отследить, что наша задача действительно запускается каждые 5 минут с помощью команды:
+    ```
+    grep CRON /var/log/syslog
+    ```
+    ![image](https://github.com/user-attachments/assets/7cab86ee-4ec7-4f2b-bd0e-56270631a77a)
+   С помощью этой команды мы вывели в терминал все записи из системного лог-файла, которые относятся к работе планировщика задач cron.
+   В результате видим, что файл backup_new_files.bash был запущен в 15:30 и 15:35 (UTC).
+   
