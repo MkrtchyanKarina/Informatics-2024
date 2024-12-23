@@ -67,4 +67,5 @@
 Задача: Настройте cron для выполнения скрипта, который проверяет наличие новых файлов в директории /path/to/watch каждые 5 минут и перемещает их в директорию /path/to/backup, если они были созданы за последние 5 минут. Также добавьте логирование результатов выполнения скрипта.
 
 ##  Материалы
-Настройка планировщика задач cron(https://1cloud.ru/help/linux/kak-nastroit-planirovshchik-cron-na-crontab-linux)
+[Настройка планировщика задач cron](https://1cloud.ru/help/linux/kak-nastroit-planirovshchik-cron-na-crontab-linux)
+[Применение на практике](https://habr.com/ru/companies/skillfactory/articles/656423/)
